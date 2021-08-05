@@ -13,6 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [Prettier](https://andrebnassis.medium.com/setting-prettier-on-a-react-typescript-project-2021-f9f0d5a1d6b0
 -   [Prettier and ESLint](https://robertcooper.me/post/using-eslint-and-prettier-in-a-typescript-project)
 - [GitHub actions](https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp)
+- [linter configuration](https://github.com/github/super-linter)
 
 ## Available Scripts
 
