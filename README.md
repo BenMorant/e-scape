@@ -4,7 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Tutorials and Documentation about libraries, frameworks and config used
 
-- [ESLint](https://andrebnassis.medium.com/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba)
+-   [ESLint](https://andrebnassis.medium.com/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba)
+-   [Prettier](https://andrebnassis.medium.com/setting-prettier-on-a-react-typescript-project-2021-f9f0d5a1d6b0
+-   [Prettier and ESLint](https://robertcooper.me/post/using-eslint-and-prettier-in-a-typescript-project)
 
 ## Available Scripts
 
