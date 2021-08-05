@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Typescript template](https://create-react-app.dev/docs/adding-typescript/).
+
+## Tutorials and Documentation about libraries, frameworks and config used
+
+- [ESLint](https://andrebnassis.medium.com/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba)
 
 ## Available Scripts
 
