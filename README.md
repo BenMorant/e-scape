@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# E-scape
+
+![CI/CD](https://github.com/BenMorant/e-scape/workflows/build-deploy/badge.svg)
+[![codecov](https://codecov.io/gh/BenMorant/e-scape/branch/master/graph/badge.svg)](https://codecov.io/gh/BenMorant/e-scape)
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Typescript template](https://create-react-app.dev/docs/adding-typescript/).
 
@@ -7,6 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 -   [ESLint](https://andrebnassis.medium.com/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba)
 -   [Prettier](https://andrebnassis.medium.com/setting-prettier-on-a-react-typescript-project-2021-f9f0d5a1d6b0
 -   [Prettier and ESLint](https://robertcooper.me/post/using-eslint-and-prettier-in-a-typescript-project)
+- [GitHub actions](https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp)
 
 ## Available Scripts
 
