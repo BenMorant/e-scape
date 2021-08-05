@@ -2,6 +2,7 @@
 
 ![CI/CD](https://github.com/BenMorant/e-scape/workflows/build-deploy/badge.svg)
 [![codecov](https://codecov.io/gh/BenMorant/e-scape/branch/main/graph/badge.svg)](https://codecov.io/gh/BenMorant/e-scape)
+[![GitHub Super-Linter](https://github.com/BenMorant/e-scape/workflows/linter/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 
 
