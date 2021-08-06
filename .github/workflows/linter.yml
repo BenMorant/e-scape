@@ -55,3 +55,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_TYPESCRIPT_STANDARD: false
           VALIDATE_JAVASCRIPT_STANDARD: false
+          JAVASCRIPT_ES_CONFIG_FILE: eslintrc.json
+          JAVASCRIPT_DEFAULT_STYLE: prettier
+          TYPESCRIPT_ES_CONFIG_FILE: eslintrc.json
