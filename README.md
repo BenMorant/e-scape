@@ -1,6 +1,7 @@
 # E-scape
 
-![CI/CD](https://github.com/BenMorant/e-scape/workflows/build-deploy/badge.svg)
+![CI/CD](https://github.com/BenMorant/e-scape/actions/workflows/build.yml/badge.svg)
+![Linting](https://github.com/BenMorant/e-scape/actions/workflows/lint.yml/badge.svg)
 [![codecov](https://codecov.io/gh/BenMorant/e-scape/branch/main/graph/badge.svg)](https://codecov.io/gh/BenMorant/e-scape)
 
 
@@ -9,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Tutorials and Documentation about libraries, frameworks and config used
 
 -   [ESLint](https://andrebnassis.medium.com/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba)
--   [Prettier](https://andrebnassis.medium.com/setting-prettier-on-a-react-typescript-project-2021-f9f0d5a1d6b0
+-   [Prettier](https://andrebnassis.medium.com/setting-prettier-on-a-react-typescript-project-2021-f9f0d5a1d6b0)
 -   [Prettier and ESLint](https://robertcooper.me/post/using-eslint-and-prettier-in-a-typescript-project)
 - [GitHub actions](https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp)
 
