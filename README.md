@@ -14,6 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Prettier and ESLint](https://robertcooper.me/post/using-eslint-and-prettier-in-a-typescript-project)
 - [GitHub actions](https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp)
 - [Super Linter](https://github.com/github/super-linter)
+- [Deployment on GitHub Pages](https://github.com/JamesIves/github-pages-deploy-action)
 
 ## Available Scripts
 
