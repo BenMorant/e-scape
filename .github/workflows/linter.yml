@@ -53,9 +53,6 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          JAVASCRIPT_ES_LINTER_RULES: /linters/eslintrc.json
           VALIDATE_TYPESCRIPT_STANDARD: false
           VALIDATE_JAVASCRIPT_STANDARD: false
-          JAVASCRIPT_ES_CONFIG_FILE: eslintrc.json
           JAVASCRIPT_DEFAULT_STYLE: prettier
-          TYPESCRIPT_ES_CONFIG_FILE: eslintrc.json
