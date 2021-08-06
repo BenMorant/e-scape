@@ -40,3 +40,9 @@ jobs:
 
     - name: Build
       run: npm run build --if-present
+
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@4.1.4
+      with:
+        branch: gh-pages
+        folder: build
