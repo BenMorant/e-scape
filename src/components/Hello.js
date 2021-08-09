@@ -1,7 +1,7 @@
-import React, { FC } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-const Hello: FC = () => {
+const Hello () => {
     const { t } = useTranslation();
     return (
         <div>

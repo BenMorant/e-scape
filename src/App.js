@@ -1,7 +1,7 @@
 import React from 'react';
 import Hello from './components/Hello';
 
-function App(): JSX.Element {
+function App() {
     return (
         <div>
             <Hello />

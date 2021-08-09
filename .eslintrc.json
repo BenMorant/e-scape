@@ -8,34 +8,44 @@
     "extends": [
         "plugin:react/recommended",
         "airbnb",
-        "airbnb-typescript",
         "airbnb/hooks",
-        "plugin:@typescript-eslint/recommended",
+        "eslint:recommended",
         "prettier",
         "plugin:prettier/recommended"
     ],
-    "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
         },
         "ecmaVersion": 12,
         "sourceType": "module",
-        "project": "./tsconfig.json"
+        "project": "./jsconfig.json"
     },
-    "plugins": ["react", "@typescript-eslint", "react-hooks", "jest"],
+    "plugins": ["react", "react-hooks", "jest"],
     "rules": {
+
+        "arrow-body-style": ["error", "as-needed"],
+        "eqeqeq": "error",
+        "jsx-quotes": ["error", "prefer-double"],
+        "no-console": "error",
+        "no-alert": "error",
+        "no-bitwise": "error",
+        "no-duplicate-imports": "error",
+        "no-else-return": "error",
+        "no-self-compare": "error",
+        "quotes": ["error", "single", { "avoidEscape": true }],
+        "react/react-in-jsx-scope": 0,
+        "react/jsx-handler-names": 0,
+        "react/jsx-curly-newline": 0,
         "no-use-before-define": "off",
-        "@typescript-eslint/no-use-before-define": ["error"],
-        "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
         "import/extensions": [
             "error",
             "ignorePackages",
             {
-                "ts": "never",
-                "tsx": "never"
+              "js": "never",
+              "jsx": "never"
             }
-        ],
+         ],
         "linebreak-style": "off",
         "prettier/prettier": [
             "error",
@@ -43,23 +53,16 @@
                 "endOfLine": "auto"
             }
         ],
-        "no-shadow": "off",
-        "@typescript-eslint/no-shadow": ["error"],
-        "@typescript-eslint/explicit-function-return-type": [
-            "error",
-            {
-                "allowExpressions": true
-            }
-        ],
+        "no-shadow": "error",
         "max-len": ["warn", { "code": 120 }],
         "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn",
+        "react-hooks/exhaustive-deps": "error",
         "import/prefer-default-export": "off",
         "react/prop-types": "off"
     },
     "settings": {
-        "import/resolver": {
-            "typescript": {}
+        "react": {
+          "version": "17.0"
         }
     }
 }
