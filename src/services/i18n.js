@@ -1,25 +1,16 @@
 import i18next from 'i18next';
 import { initReactI18next } from 'react-i18next';
-// "Inline" English and French translations.
-// We can localize to any language and any number of languages.
-const resources = {
-    en: {
-        translation: {
-            hello_world: 'Hello world !',
+import HttpApi from 'i18next-http-backend';
+
+i18next
+    .use(initReactI18next)
+    .use(HttpApi) // Registering the back-end plugin
+    .init({
+        // Remove resources from here
+        lng: 'en',
+        interpolation: {
+            escapeValue: false,
         },
-    },
-    fr: {
-        translation: {
-            hello_world: 'Salut le monde !',
-        },
-    },
-};
-i18next.use(initReactI18next).init({
-    resources,
-    lng: 'fr',
-    interpolation: {
-        escapeValue: false,
-    },
-    debug: true,
-});
+        debug: process.env.NODE_ENV === 'development',
+    });
 export default i18next;
