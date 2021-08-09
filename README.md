@@ -15,6 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [GitHub actions](https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp)
 - [Super Linter](https://github.com/github/super-linter)
 - [Deployment on GitHub Pages](https://github.com/JamesIves/github-pages-deploy-action)
+- [Localization](https://phrase.com/blog/posts/localizing-react-apps-with-i18next/)
 
 ## Available Scripts
 

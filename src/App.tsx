@@ -1,9 +1,10 @@
 import React from 'react';
+import Hello from './components/Hello';
 
 function App(): JSX.Element {
     return (
         <div>
-            <h1>Hello World !</h1>
+            <Hello />
         </div>
     );
 }
