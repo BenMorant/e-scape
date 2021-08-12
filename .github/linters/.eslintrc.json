@@ -1,65 +1,45 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true,
-        "node": true,
-        "jest": true
+    "settings": {
+        "react": {
+            "version": "17.0"
+        }
     },
-    "extends": [
-        "plugin:react/recommended",
-        "airbnb",
-        "airbnb-typescript",
-        "airbnb/hooks",
-        "plugin:@typescript-eslint/recommended",
-        "prettier",
-        "plugin:prettier/recommended"
-    ],
-    "parser": "@typescript-eslint/parser",
+    "env": {
+        "es2021": true,
+        "browser": true,
+        "jest": true,
+        "node": true
+    },
+    "extends": ["react-app", "airbnb", "plugin:jsx-a11y/recommended", "prettier"],
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
         },
         "ecmaVersion": 12,
-        "sourceType": "module",
-        "project": "./jsconfig.json"
+        "sourceType": "module"
     },
-    "plugins": ["react", "@typescript-eslint", "react-hooks", "jest"],
+    "plugins": ["react", "react-hooks", "jsx-a11y", "import", "prettier"],
     "rules": {
-        "no-use-before-define": "off",
-        "@typescript-eslint/no-use-before-define": ["error"],
-        "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
-        "import/extensions": [
-            "error",
-            "ignorePackages",
-            {
-                "ts": "never",
-                "tsx": "never"
-            }
-        ],
-        "linebreak-style": "off",
-        "prettier/prettier": [
-            "error",
-            {
-                "endOfLine": "auto"
-            }
-        ],
-        "no-shadow": "off",
-        "@typescript-eslint/no-shadow": ["error"],
-        "@typescript-eslint/explicit-function-return-type": [
-            "error",
-            {
-                "allowExpressions": true
-            }
-        ],
-        "max-len": ["warn", { "code": 120 }],
+        "prettier/prettier": "error",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/state-in-constructor": "off",
+        "arrow-body-style": ["error", "as-needed"],
+        "eqeqeq": "error",
+        "jsx-quotes": ["error", "prefer-double"],
+        "no-console": "error",
+        "no-alert": "error",
+        "no-bitwise": "error",
+        "no-duplicate-imports": "error",
+        "no-else-return": "error",
+        "no-self-compare": "error",
+        "no-shadow": "error",
+        "quotes": ["error", "single", { "avoidEscape": true }],
         "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn",
-        "import/prefer-default-export": "off",
-        "react/prop-types": "off"
-    },
-    "settings": {
-        "import/resolver": {
-            "typescript": {}
-        }
+        "react-hooks/exhaustive-deps": "error",
+        "react/prop-types": "off",
+        "react/react-in-jsx-scope": 0,
+        "react/jsx-handler-names": 0,
+        "react/jsx-curly-newline": 0
     }
 }

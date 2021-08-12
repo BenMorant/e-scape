@@ -1,29 +1,29 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true,
-        "node": true,
-        "jest": true
+    "settings": {
+        "react": {
+            "version": "17.0"
+        }
     },
-    "extends": [
-        "plugin:react/recommended",
-        "airbnb",
-        "airbnb/hooks",
-        "eslint:recommended",
-        "prettier",
-        "plugin:prettier/recommended"
-    ],
+    "env": {
+        "es2021": true,
+        "browser": true,
+        "jest": true,
+        "node": true
+    },
+    "extends": ["react-app", "airbnb", "plugin:jsx-a11y/recommended", "prettier"],
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
         },
         "ecmaVersion": 12,
-        "sourceType": "module",
-        "project": "./jsconfig.json"
+        "sourceType": "module"
     },
-    "plugins": ["react", "react-hooks", "jest"],
+    "plugins": ["react", "react-hooks", "jsx-a11y", "import", "prettier"],
     "rules": {
-
+        "prettier/prettier": "error",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "react/state-in-constructor": "off",
         "arrow-body-style": ["error", "as-needed"],
         "eqeqeq": "error",
         "jsx-quotes": ["error", "prefer-double"],
@@ -33,36 +33,13 @@
         "no-duplicate-imports": "error",
         "no-else-return": "error",
         "no-self-compare": "error",
-        "quotes": ["error", "single", { "avoidEscape": true }],
-        "react/react-in-jsx-scope": 0,
-        "react/jsx-handler-names": 0,
-        "react/jsx-curly-newline": 0,
-        "no-use-before-define": "off",
-        "import/extensions": [
-            "error",
-            "ignorePackages",
-            {
-              "js": "never",
-              "jsx": "never"
-            }
-         ],
-        "linebreak-style": "off",
-        "prettier/prettier": [
-            "error",
-            {
-                "endOfLine": "auto"
-            }
-        ],
         "no-shadow": "error",
-        "max-len": ["warn", { "code": 120 }],
+        "quotes": ["error", "single", { "avoidEscape": true }],
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "error",
-        "import/prefer-default-export": "off",
-        "react/prop-types": "off"
-    },
-    "settings": {
-        "react": {
-          "version": "17.0"
-        }
+        "react/prop-types": "off",
+        "react/react-in-jsx-scope": 0,
+        "react/jsx-handler-names": 0,
+        "react/jsx-curly-newline": 0
     }
 }
