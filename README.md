@@ -4,7 +4,6 @@
 [![GitHub Super-Linter](https://github.com/BenMorant/e-scape/actions/workflows/linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
 [![codecov](https://codecov.io/gh/BenMorant/e-scape/branch/main/graph/badge.svg)](https://codecov.io/gh/BenMorant/e-scape)
 
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Typescript template](https://create-react-app.dev/docs/adding-typescript/).
 
 ## Tutorials and Documentation about libraries, frameworks and config used
@@ -15,6 +14,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [GitHub actions](https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp)
 - [Super Linter](https://github.com/github/super-linter)
 - [Deployment on GitHub Pages](https://github.com/JamesIves/github-pages-deploy-action)
+- [Localization](https://phrase.com/blog/posts/localizing-react-apps-with-i18next/)
 
 ## Available Scripts
 
@@ -58,3 +58,27 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
