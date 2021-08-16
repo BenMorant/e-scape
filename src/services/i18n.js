@@ -11,10 +11,16 @@ const resources = {
     },
 };
 
-i18next.init({
-    interpolation: { escapeValue: false },
-    lng: 'en',
-    resources,
-});
+i18next
+    .init({
+        interpolation: { escapeValue: false },
+        lng: 'en',
+        resources,
+    })
+    .then(() => {
+        if (i18next.languages.every(lang => i18next.getDataByLanguage(lang) === undefined)) {
+            throw new Error('Failed to load localization');
+        }
+    });
 
 export default i18next;
