@@ -28,4 +28,11 @@ import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
 //   resources: { en: { translations: {} } },
 // });
 
+beforeEach(() => {
+    jest.mock('./services/i18n.js', () => ({
+        useTranslation: () => ({ t: key => key }),
+        Trans: ({ children }) => children,
+    }));
+});
+
 Enzyme.configure({ adapter: new Adapter() });
