@@ -4,7 +4,7 @@
 [![GitHub Super-Linter](https://github.com/BenMorant/e-scape/actions/workflows/linter.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
 [![codecov](https://codecov.io/gh/BenMorant/e-scape/branch/main/graph/badge.svg)](https://codecov.io/gh/BenMorant/e-scape)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Typescript template](https://create-react-app.dev/docs/adding-typescript/).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Tutorials and Documentation about libraries, frameworks and config used
 
@@ -14,7 +14,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [GitHub actions](https://dev.to/dyarleniber/setting-up-a-ci-cd-workflow-on-github-actions-for-a-react-app-with-github-pages-and-codecov-4hnp)
 - [Super Linter](https://github.com/github/super-linter)
 - [Deployment on GitHub Pages](https://github.com/JamesIves/github-pages-deploy-action)
-- [Localization](https://phrase.com/blog/posts/localizing-react-apps-with-i18next/)
+- [Flow](https://medium.com/@pppped/extend-create-react-app-with-airbnbs-eslint-config-prettier-flow-and-react-testing-library-96627e9a9672)
+- [Localization](https://phrase.com/blog/posts/localizing-react-apps-with-i18next/), also [that](https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-react-app-with-react-i18next)
 
 ## Available Scripts
 
