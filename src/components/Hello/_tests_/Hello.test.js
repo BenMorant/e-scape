@@ -1,5 +1,5 @@
 import { mount } from 'enzyme';
-import Hello from './Hello';
+import Hello from '../Hello';
 
 it('test render', () => {
     const mounted = mount(<Hello />);
