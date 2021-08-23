@@ -1,4 +1,4 @@
-import BrowserUI from './components/Browser/Browser';
+import BrowserUI from './components/Browser/BrowserUI';
 
 function App() {
     return (

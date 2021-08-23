@@ -1,6 +1,8 @@
 import React from 'react';
 import Browser, { Chrome } from 'react-browser-ui';
 import Hello from '../Hello/Hello';
+import AddressBar from './AddressBar';
+import BrowserConfig from './BrowserConfig';
 
 const { Tab, Divider, AddButton } = Chrome;
 
@@ -9,6 +11,8 @@ export default function BrowserUI({ showHeader = false }) {
         <>
             <Divider />
             <AddButton />
+            <AddressBar />
+            <BrowserConfig />
         </>
     );
     return (
