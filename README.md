@@ -15,7 +15,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - [Super Linter](https://github.com/github/super-linter)
 - [Deployment on GitHub Pages](https://github.com/JamesIves/github-pages-deploy-action)
 - [Flow](https://medium.com/@pppped/extend-create-react-app-with-airbnbs-eslint-config-prettier-flow-and-react-testing-library-96627e9a9672)
-- [Localization](https://phrase.com/blog/posts/localizing-react-apps-with-i18next/), also [that](https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-react-app-with-react-i18next)
+- [Localization](https://phrase.com/blog/posts/localizing-react-apps-with-i18next/) (also [that](https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-react-app-with-react-i18next))
+- [Browser UI](https://github.com/ismailnamdar/react-browser-ui)
 
 ## Available Scripts
 

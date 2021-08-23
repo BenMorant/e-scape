@@ -1,9 +1,9 @@
-import Hello from './components/Hello/Hello';
+import ChromeExample from './components/Browser/Browser';
 
 function App() {
     return (
         <div className="App">
-            <Hello />
+            <ChromeExample />
         </div>
     );
 }
