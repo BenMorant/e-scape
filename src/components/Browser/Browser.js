@@ -4,7 +4,7 @@ import Hello from '../Hello/Hello';
 
 const { Tab, Divider, AddButton } = Chrome;
 
-export default function ChromeExample({ showHeader = false }) {
+export default function BrowserUI({ showHeader = false }) {
     const tabEnd = (
         <>
             <Divider />

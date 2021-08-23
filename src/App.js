@@ -1,9 +1,9 @@
-import ChromeExample from './components/Browser/Browser';
+import BrowserUI from './components/Browser/Browser';
 
 function App() {
     return (
         <div className="App">
-            <ChromeExample />
+            <BrowserUI />
         </div>
     );
 }
