@@ -1,9 +1,9 @@
-import BrowserUI from './components/Browser/BrowserUI';
+import Browser from './components/Browser/index';
 
 function App() {
     return (
         <div className="App">
-            <BrowserUI />
+            <Browser />
         </div>
     );
 }
