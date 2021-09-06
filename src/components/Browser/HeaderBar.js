@@ -4,6 +4,7 @@ const HeaderBar = () => {
     const appName = 'E-Scape';
 
     const handleClose = () => {
+        // eslint-disable-next-line no-restricted-globals, no-alert
         if (confirm("Voulez vous vraiment quitter l'application ?")) {
             window.close();
         }
@@ -22,19 +23,22 @@ const HeaderBar = () => {
     };
 
     return (
-        <>
-            <h1>Je suis la headerBar</h1>
-            <button type="button" onClick={handleClose} className="closeButton">
-                close
-            </button>
-            <button type="button" onClick={handleMinify} className="minifyButton">
-                minify
-            </button>
-            <button type="button" onClick={handleFullscreen} className="fullscreenButton">
-                fullscreen
-            </button>
-            {appName}
-        </>
+        <div className="headerBar">
+            <div className="headerButtonContainer">
+                <div className="headerButton">
+                    <button type="button" onClick={handleClose} className="closeButton">
+                        <span className="buttonSymbol">x</span>
+                    </button>
+                    <button type="button" onClick={handleMinify} className="minifyButton">
+                        <span className="buttonSymbol">-</span>
+                    </button>
+                    <button type="button" onClick={handleFullscreen} className="fullscreenButton">
+                        <span className="buttonSymbol">+</span>
+                    </button>
+                </div>
+            </div>
+            <div className="appTitle">{appName}</div>
+        </div>
     );
 };
 

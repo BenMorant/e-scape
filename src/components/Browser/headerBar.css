@@ -1,11 +1,70 @@
+.headerBar {
+    background: lightgrey;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 3px 10px 3px 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+ }
+.headerBar > *:not(:first-child) {
+        margin-left: 8px;
+    }
+
+.headerButtonContainer {
+    padding-right: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+button {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 0;
+    outline: none;
+    margin: 5px;
+}
+
+.buttonSymbol {
+    visibility: hidden;
+    text-align: center;
+}
+
+button:hover .buttonSymbol {
+    visibility: visible;
+
+}
+
 .closeButton {
-    background: #000;
+    background: #EC6A5D;
+    border : 0.5px solid #CE5347;
+    boxShadow  :inset 0px 0px 6px #EC6D62;
 }
 
 .minifyButton {
-    background: #000;
+    background: #F5BF4E;
+    marginLeft: 12px;
+    border:0.5px solid #D6A243;
+    boxShadow:inset 0px 0px 6px #F5C451;
 }
 
 .fullscreenButton {
-    background: #000;
+    background: #62C654;
+    marginLeft: 10px;
+    border: 0.5px solid #58A942;
+    boxShadow: inset 0px 0px 6px #68CC58;
+}
+
+.appTitle {
+    font-size: 20px;
+    margin-top: 0;
+    margin: 10px;
+    flex: 1;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+
 }

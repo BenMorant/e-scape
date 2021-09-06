@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import PropTypes from 'prop-types';
 import { CloseButton, FullscreenButton, MinifyButton } from './HeaderButton';
 
 const TAB_COLOR = '#ebecee';
@@ -136,24 +135,6 @@ export const Tab = ({ isActive, imageUrl, imageAlt, title, onClick, onClose }) =
     </StyledTab>
 );
 
-Tab.propTypes = {
-    isActive: PropTypes.bool,
-    imageUrl: PropTypes.string,
-    imageAlt: PropTypes.string,
-    title: PropTypes.oneOfType([PropTypes.node, PropTypes.string]),
-    onClick: PropTypes.func,
-    onClose: PropTypes.func,
-};
-
-Tab.defaultProps = {
-    isActive: false,
-    imageUrl: null,
-    imageAlt: '',
-    title: '',
-    onClick: () => {},
-    onClose: () => {},
-};
-
 const StyledSpan = styled.span`
     margin: 0;
     margin-top: -4px;
@@ -189,28 +170,6 @@ const Chrome = ({ showHeader, tabs, children, tabEnd, style, onClose, onMinifyCl
         <Content>{children}</Content>
     </>
 );
-
-Chrome.propTypes = {
-    showHeader: PropTypes.bool,
-    tabs: PropTypes.node,
-    children: PropTypes.node,
-    tabEnd: PropTypes.node,
-    style: PropTypes.object, // eslint-disable-line react/forbid-prop-types
-    onClose: PropTypes.func,
-    onMinifyClick: PropTypes.func,
-    onFullscreenClick: PropTypes.func,
-};
-
-Chrome.defaultProps = {
-    showHeader: false,
-    style: undefined,
-    tabs: <></>,
-    tabEnd: <></>,
-    children: <></>,
-    onClose: () => {},
-    onMinifyClick: () => {},
-    onFullscreenClick: () => {},
-};
 
 Chrome.Divider = Divider;
 Chrome.Tab = Tab;
