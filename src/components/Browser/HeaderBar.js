@@ -25,17 +25,15 @@ const HeaderBar = () => {
     return (
         <div className="headerBar">
             <div className="headerButtonContainer">
-                <div className="headerButton">
-                    <button type="button" onClick={handleClose} className="closeButton">
-                        <span className="buttonSymbol">x</span>
-                    </button>
-                    <button type="button" onClick={handleMinify} className="minifyButton">
-                        <span className="buttonSymbol">-</span>
-                    </button>
-                    <button type="button" onClick={handleFullscreen} className="fullscreenButton">
-                        <span className="buttonSymbol">+</span>
-                    </button>
-                </div>
+                <button type="button" onClick={handleClose} className="headerButton" id="closeButton">
+                    <span className="buttonSymbol">x</span>
+                </button>
+                <button type="button" onClick={handleMinify} className="headerButton" id="minifyButton">
+                    <span className="buttonSymbol">-</span>
+                </button>
+                <button type="button" onClick={handleFullscreen} className="headerButton" id="fullscreenButton">
+                    <span className="buttonSymbol">+</span>
+                </button>
             </div>
             <div className="appTitle">{appName}</div>
         </div>

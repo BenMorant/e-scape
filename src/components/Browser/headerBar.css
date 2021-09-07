@@ -4,8 +4,6 @@
     align-items: center;
     height: 30px;
     padding: 3px 10px 3px 10px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
  }
 .headerBar > *:not(:first-child) {
         margin-left: 8px;
@@ -18,7 +16,7 @@
     align-items: center;
 }
 
-button {
+.headerButton {
     height: 20px;
     width: 20px;
     border-radius: 10px;
@@ -33,25 +31,25 @@ button {
     text-align: center;
 }
 
-button:hover .buttonSymbol {
+.headerButton:hover .buttonSymbol {
     visibility: visible;
 
 }
 
-.closeButton {
+#closeButton {
     background: #EC6A5D;
     border : 0.5px solid #CE5347;
     boxShadow  :inset 0px 0px 6px #EC6D62;
 }
 
-.minifyButton {
+#minifyButton {
     background: #F5BF4E;
     marginLeft: 12px;
     border:0.5px solid #D6A243;
     boxShadow:inset 0px 0px 6px #F5C451;
 }
 
-.fullscreenButton {
+#fullscreenButton {
     background: #62C654;
     marginLeft: 10px;
     border: 0.5px solid #58A942;

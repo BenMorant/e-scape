@@ -5,6 +5,10 @@ import { I18nextProvider } from 'react-i18next';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import i18n from './services/i18n';
+import Hello from './components/Hello/Hello';
+import Browser from './components/Browser/Browser';
+import Frame from 'react-frame-component';
+import './frame.css';
 
 ReactDOM.render(
     <React.StrictMode>

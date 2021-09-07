@@ -1,9 +1,14 @@
-import HeaderBar from './components/Browser/HeaderBar';
+import Hello from './components/Hello/Hello';
+import Browser from './components/Browser/Browser';
+import Frame from 'react-frame-component';
 
 function App() {
     return (
         <div className="App">
-            <HeaderBar />
+            <Browser />
+            <Frame className="pages-container" head={<link type="text/css" rel="stylesheet" href="./frame.css" />}>
+                <Hello />
+            </Frame>
         </div>
     );
 }

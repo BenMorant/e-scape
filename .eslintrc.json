@@ -1,45 +1,45 @@
 {
-    "settings": {
-        "react": {
-            "version": "17.0"
-        }
-    },
-    "env": {
-        "es2021": true,
-        "browser": true,
-        "jest": true,
-        "node": true
-    },
-    "extends": ["react-app", "airbnb", "plugin:jsx-a11y/recommended", "prettier"],
-    "parser": "babel-eslint",
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 12,
-        "sourceType": "module"
-    },
-    "plugins": ["react", "react-hooks", "jsx-a11y", "import", "prettier"],
-    "rules": {
-        "prettier/prettier": "error",
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-        "react/state-in-constructor": "off",
-        "arrow-body-style": ["error", "as-needed"],
-        "eqeqeq": "error",
-        "jsx-quotes": ["error", "prefer-double"],
-        "no-console": "error",
-        "no-alert": "error",
-        "no-bitwise": "error",
-        "no-duplicate-imports": "error",
-        "no-else-return": "error",
-        "no-self-compare": "error",
-        "no-shadow": "error",
-        "quotes": ["error", "single", { "avoidEscape": true }],
-        "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "error",
-        "react/prop-types": "off",
-        "react/react-in-jsx-scope": 0,
-        "react/jsx-handler-names": 0,
-        "react/jsx-curly-newline": 0
-    }
+    // "settings": {
+    //     "react": {
+    //         "version": "17.0"
+    //     }
+    // },
+    // "env": {
+    //     "es2021": true,
+    //     "browser": true,
+    //     "jest": true,
+    //     "node": true
+    // },
+    // "extends": ["react-app", "airbnb", "plugin:jsx-a11y/recommended", "prettier"],
+    // "parser": "babel-eslint",
+    // "parserOptions": {
+    //     "ecmaFeatures": {
+    //         "jsx": true
+    //     },
+    //     "ecmaVersion": 12,
+    //     "sourceType": "module"
+    // },
+    // "plugins": ["react", "react-hooks", "jsx-a11y", "import", "prettier"],
+    // "rules": {
+    //     "prettier/prettier": "error",
+    //     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    //     "react/state-in-constructor": "off",
+    //     "arrow-body-style": ["error", "as-needed"],
+    //     "eqeqeq": "error",
+    //     "jsx-quotes": ["error", "prefer-double"],
+    //     "no-console": "error",
+    //     "no-alert": "error",
+    //     "no-bitwise": "error",
+    //     "no-duplicate-imports": "error",
+    //     "no-else-return": "error",
+    //     "no-self-compare": "error",
+    //     "no-shadow": "error",
+    //     "quotes": ["error", "single", { "avoidEscape": true }],
+    //     "react-hooks/rules-of-hooks": "error",
+    //     "react-hooks/exhaustive-deps": "error",
+    //     "react/prop-types": "off",
+    //     "react/react-in-jsx-scope": 0,
+    //     "react/jsx-handler-names": 0,
+    //     "react/jsx-curly-newline": 0
+    // }
 }

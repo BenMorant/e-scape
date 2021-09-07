@@ -1,0 +1,9 @@
+.pages-container {
+    padding-top: 160px;
+      border: 0;
+   height: 100vh;
+   left: 0;
+   /* position: absolute; */
+   /* top: 0; */
+   width: 100%;
+}
