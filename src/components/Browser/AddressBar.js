@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './addressBar.css';
 
 const AddressBar = () => {
-    const address = null;
+    const [address, setAddress] = useState('');
 
     return (
         <div className="addressBar">
