@@ -23,41 +23,46 @@
     box-sizing: border-box;
     padding: 0;
     outline: none;
-    margin: 5px;
-}
-
-.buttonSymbol {
-    visibility: hidden;
     text-align: center;
-}
-
-.headerButton:hover .buttonSymbol {
-    visibility: visible;
-
 }
 
 #closeButton {
     background: #EC6A5D;
+    color: #EC6A5D;
     border : 0.5px solid #CE5347;
-    boxShadow  :inset 0px 0px 6px #EC6D62;
+    box-shadow  :inset 0px 0px 6px #EC6D62;
+}
+#closeButton:hover {
+    color: #c93325;
 }
 
 #minifyButton {
     background: #F5BF4E;
-    marginLeft: 12px;
+    color: #F5BF4E;
+    margin-left: 12px;
     border:0.5px solid #D6A243;
-    boxShadow:inset 0px 0px 6px #F5C451;
+    box-shadow:inset 0px 0px 6px #F5C451;
+}
+
+#minifyButton:hover {
+    color: #c28e1e;
 }
 
 #fullscreenButton {
     background: #62C654;
-    marginLeft: 10px;
+    color: #62C654;
+    margin-left: 10px;
     border: 0.5px solid #58A942;
-    boxShadow: inset 0px 0px 6px #68CC58;
+    box-shadow: inset 0px 0px 6px #68CC58;
+}
+
+#fullscreenButton:hover {
+    color: #329925;
 }
 
 .appTitle {
     font-size: 20px;
+    color: rgb(75, 73, 73);
     margin-top: 0;
     margin: 10px;
     flex: 1;

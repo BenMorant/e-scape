@@ -24,17 +24,17 @@ const HeaderBar = () => {
 
     return (
         <div className="headerBar">
-            <div className="headerButtonContainer">
+            <span className="headerButtonContainer">
                 <button type="button" onClick={handleClose} className="headerButton" id="closeButton">
-                    <span className="buttonSymbol">x</span>
+                    X
                 </button>
                 <button type="button" onClick={handleMinify} className="headerButton" id="minifyButton">
-                    <span className="buttonSymbol">-</span>
+                    &#8210;
                 </button>
                 <button type="button" onClick={handleFullscreen} className="headerButton" id="fullscreenButton">
-                    <span className="buttonSymbol">+</span>
+                    +
                 </button>
-            </div>
+            </span>
             <div className="appTitle">{appName}</div>
         </div>
     );
